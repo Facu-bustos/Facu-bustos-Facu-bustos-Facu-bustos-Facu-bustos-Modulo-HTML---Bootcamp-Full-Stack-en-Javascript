@@ -1,0 +1,61 @@
+.backDrop {
+    background-color:rgb(246, 255, 0) !important;
+}
+.navbar{
+    background-color:rgb(246, 255, 0) !important;
+    color: rgb(1, 1, 9) !important;
+    border-bottom: 2px rgb(0, 0, 0) !important;
+}
+.navbar-brand{
+    font-size: 35px !important;
+    font-family:'Segoe UI' !important;
+    text-decoration: underline !important;
+    text-decoration:overline !important;
+}
+.nav-item{
+    font-size: 20px !important;
+    font-family: 'Segoe UI' !important;
+    color: black !important;
+}
+.carousel-caption {
+    color: rgb(234, 255, 5) !important;
+  
+}
+
+.carousel, .carousel-inner > .item > img {
+    width: 600px !important;
+    height: 100px !important;
+    padding-top: 10px !important;
+    margin:40px !important;
+    margin-left: 25% !important;
+    margin-right: 35% !important;
+  }
+.carousel-indicators{
+    margin-bottom: 25px !important;
+    
+}
+.card-group{
+    margin-bottom: 100px !important;
+    margin-top: 20% !important;
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+}
+.card-img-top{
+    
+    padding: 4px !important;
+    width: auto !important;
+    height: 300px !important;
+    
+}
+.btn {
+    background-color: rgb(0, 0, 0);
+}
+.card{
+    margin: 0px !important;
+}
+
+
+
+
+/*--MQUERIS*/
+

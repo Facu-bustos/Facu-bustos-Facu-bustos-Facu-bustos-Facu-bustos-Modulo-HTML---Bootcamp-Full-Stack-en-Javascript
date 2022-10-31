@@ -1,0 +1,117 @@
+*{
+    font-size: small;
+    
+}
+header .header-content .logo {
+    margin: auto;
+    background-color: rgb(130, 93, 224);
+    padding: 10px;
+    padding-left: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+header .header-content .material-symbols-outlined {
+    height: max-content;
+    width: auto;
+
+    }
+
+header .header-content .logo h3 {
+    color: aliceblue;
+    font-size: 35px;
+    font-family: sans-serif;
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font: 800;
+
+}
+
+header .header-content .bar-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+header .header-content .bar-nav a {
+    color: rgb(75, 173, 170);
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    margin: auto;
+    opacity: 0.5;
+    padding: 22px;
+}
+
+header .header-content .bar-nav a:hover {
+    border-bottom: 3px solid rgb(242, 108, 108);
+    opacity: 1;
+}
+
+header .header-content .place {
+    color: rgb(11, 51, 180);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+section {
+    
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+}
+
+section div {
+    background: rgb(25, 3, 98);
+    width: auto;
+    height: 150px;
+    grid-gap: 10px;
+    margin: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div #b {
+    grid-column: 2;
+}
+
+#c {
+    grid-column: 3;
+}
+
+#d {
+    grid-column: 4;
+}
+
+@media (max-width: 768px) {
+    #d {
+        grid-column: 1;
+    }
+
+    header .header-content .bar-nav{
+        display: none;
+    }
+    /*header .header-content .bar-nav {
+        Desaparecen las etiquetas <a>;
+    }*/
+}
+
+@media (max-width: 600px) {
+    #c {
+        grid-column: 1;
+    }
+
+    #d {
+        grid-column: 2;
+    }
+
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    clear: both;
+    margin: -10px;
+}
